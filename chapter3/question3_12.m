@@ -1,6 +1,9 @@
 xlin = linspace(1,100,100);
 ylin = 20 * log10(2 * xlin);
-xlog = logspace(0,2,100);
+
+% logspace(a,b,L) - L logarithmically spaced points 
+% in the interval [10 ^ a, 10 ^ b]
+xlog = logspace(0,2,100);  
 ylog = 20 * log10(2 * xlog);
 
 tiledlayout(2,1);

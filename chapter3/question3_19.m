@@ -7,10 +7,10 @@
 
 % The amplitude and phase responses are obtained from the frequency 
 % response by computing the magnitude and phases of the complex outputs.
-% We can plot these by taking a grid of frequencies.
+% We can plot these by sampling over a grid of frequencies.
 
-% We'll make a uniformly sampled grid from 0 to (2/(2 * pi * R * C)), which
-% is twice the cutoff frequency of a simple RC circuit.
+% We'll make a uniformly sampled grid from 0 to (2/(2 * pi * R * C)); 
+% (i.e. twice the cutoff frequency of a simple RC circuit)
 
 R = 16 * 1000; % 16 kilo-Ohms
 C = 1e-6;      % 1 micro-Farad
